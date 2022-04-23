@@ -1,0 +1,14 @@
+modules:
+  default:
+    enable:
+      - lmod
+    lmod:
+      hash_length: 0
+      projections:
+        all: "{name}/{version}"
+      hierarchy:
+        - mpi
+      core_compilers:
+        - gcc@8.4.1
+#     whitelist: [gcc]
+#     blacklist: ['%gcc@8.4.1']  # prevent generation of module files for any pkg compiled with gcc@8.5.0

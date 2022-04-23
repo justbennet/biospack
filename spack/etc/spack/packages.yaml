@@ -1,0 +1,10 @@
+packages:
+  pkgconf:
+    version: [1.7.4]
+    compiler: [gcc@8.5.0]
+  all:
+    permissions:
+      write: group
+      group: arc-sw-installers
+    compiler: [gcc@10.3.0]
+
