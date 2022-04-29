@@ -1,3 +1,6 @@
 repos:
-- /var/software/$user/bio/local-packages
+# Use this for private
+# - /var/software/$user/bio/local-packages
+# Use this for production
+# - /sw/spack/bio/local-packages
 - $spack/var/spack/repos/builtin
