@@ -24,6 +24,16 @@ Garbage Collector command: uninstall all unneeded packages
 $  spack gc
 ```
 
+These two were gleaned from Slack.  Someone wanted to run `spack uninstall
+--all` and was getting an error.
+
+```
+$ spack clean -a
+$ spack reindex
+```
+
+were suggested to get things back on track.
+
 To get detailed information about a package use `spack info package_name`.
 
 ```
