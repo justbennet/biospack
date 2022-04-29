@@ -1,5 +1,15 @@
 # Tricks and handy spack commands
 
+To get a list of avaialble versions not the full `info` (see below), use
+
+```
+$ spack versions samtools
+==> Safe versions (already checksummed):
+  1.13  1.12  1.10  1.9  1.8  1.7  1.6  1.5  1.4  1.3.1  1.2  0.1.8
+==> Remote versions (not yet checksummed):
+  1.15.1  1.15  1.14  1.11
+```
+
 Show the `specs` of installed packages
 
 ```
