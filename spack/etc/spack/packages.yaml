@@ -16,10 +16,9 @@ packages:
   diffutils:
     version: [3.8]
   fftw:
-    variants: ~mpi~openmp~pfft_patches
+    variants: ~openmp~pfft_patches
     version: [3.3.10]
   hdf5:
-    variants: ~mpi
     version: [1.10.7]
   libiconv:
     version: [1.16]
