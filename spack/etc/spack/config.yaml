@@ -1,11 +1,17 @@
 config:
   # This is the path to the root of the Spack install tree.
   install_tree:
-    root: /var/software/$user/bio/pkgs
+    # Use this for private
+    # root: /var/software/$user/bio/pkgs
+    # Use this for production
+    # root: /sw/spack/bio/pkgs
     projections:
       all: "${COMPILERNAME}-${COMPILERVER}/${PACKAGE}/${VERSION}-${HASH:8}"
   module_roots:
-    lmod: /var/software/$user/bio/modules
+    # Use this for private
+    # lmod: /var/software/$user/bio/modules
+    # Use this for production
+    # lmod: /sw/spack/bio/modules
   build_stage:
     - $tempdir/$user/spack-stage
   test_stage: $user_cache_path/test
