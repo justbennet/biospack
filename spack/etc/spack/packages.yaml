@@ -4,10 +4,9 @@ packages:
       write: group
       group: arc-sw-installers
     compiler: [gcc@10.3.0]
-  #  Setting versions for common dependencies to minimize variation
+    variants: ~mpi
+  #  Setting versions/variants for common dependencies to minimize variation
   #  This might be wrong-headed, but give it a whirl
-  python:
-    version: [3.9.7]
   bzip2:
     version: [1.0.8]
   cmake:
@@ -16,6 +15,9 @@ packages:
     version: [7.79.0]
   diffutils:
     version: [3.8]
+  fftw:
+    variants: ~mpi~openmp~pfft_patches
+    version: [3.3.10]
   hdf5:
     variants: ~mpi
     version: [1.10.7]
@@ -27,10 +29,17 @@ packages:
     version: [6.2]
   openssl:
     version: [1.1.1l]
+  openssh:
+    buildable: false
+    externals:
+    - spec: openssh@8.0p1-6
+      prefix: /usr
   perl:
     version: [5.34.0]
   pkgconf:
     version: [1.8.0]
+  python:
+    version: [3.9.7]
   readline:
     version: [8.1]
   sqlite:
