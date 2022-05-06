@@ -8,7 +8,7 @@ spack install gatk@4.2.2.0
 spack install minimap2@2.14
 spack install blast-plus@2.12.0
 spack install samtools@1.13
-spack install samtools@1.9-3
+spack install samtools@1.9
 spack install sratoolkit@2.9.6
 spack install sratoolkit@2.10.9
 spack install star@2.7.6
