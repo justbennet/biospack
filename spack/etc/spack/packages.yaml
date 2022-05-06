@@ -18,6 +18,11 @@ packages:
   fftw:
     variants: ~openmp~pfft_patches
     version: [3.3.10]
+  ghostscript:
+    buildable: false
+    externals:
+    - spec: ghostscript@9.27
+      prefix: /usr
   hdf5:
     version: [1.10.7]
   libiconv:
