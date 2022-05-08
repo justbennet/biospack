@@ -9,6 +9,8 @@ packages:
   #  This might be wrong-headed, but give it a whirl
   bzip2:
     version: [1.0.8]
+  cblas:
+    version: [2015-06-06]
   cmake:
     version: [3.21.4]
   curl:
@@ -31,6 +33,8 @@ packages:
     version: [1.6.37]
   ncurses:
     version: [6.2]
+  openblas:
+    version: [0.3.18]
   openssl:
     version: [1.1.1l]
   openssh:
