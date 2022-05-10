@@ -34,7 +34,4 @@
 # spack install canu@2.2
 # spack install canu@2.1.1
 # spack install imagemagick@7.0.8-7
-
-# To be tested yet
-# spack install cblas@2015-06-06
 # spack install plink-ng@220503
