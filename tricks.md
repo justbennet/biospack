@@ -51,3 +51,26 @@ $ spack info blat
 ```
 [Full output](./blat_info.md)
 
+To see the depencies of a package, use
+```
+$ spack dependencies -i plink-ng
+==> Dependencies of plink-ng@220503%gcc@10.3.0/zgl226z
+-- linux-rhel8-haswell / gcc@10.3.0 -----------------------------
+3ntlyrq cblas@2015-06-06  d5sydgn zlib@1.2.11
+mslmaxc openblas@0.3.18   z6it5pz zstd@1.5.0
+```
+
+To see what depends on a package (its dependents), use
+```
+$ spack dependents -i openblas@0.3.18
+==> Dependents of openblas@0.3.18%gcc@10.3.0/mslmaxc
+-- linux-rhel8-haswell / gcc@10.3.0 -----------------------------
+3ntlyrq cblas@2015-06-06  zgl226z plink-ng@220503
+```
+
+To refresh modules, we currently have to blast the module tree and regenerate,
+```
+spack module lmod refresh -y --delete-tree
+```
+There is a bug that gives `permission denied` to anyone who didn't create the
+tree.
