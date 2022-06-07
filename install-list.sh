@@ -30,9 +30,9 @@
 # spack install stringtie@2.1.7
 # spack install stringtie@2.2.1
 # spack install canu@2.2
-# spack install imagemagick@7.0.8-7
+# spack install imagemagick@7.1.0-33
 # spack install bcl2fastq2@2.20.0.422
 # spack install clustal-omega@1.2.4
 # spack install py-macs2@2.2.4
-
-
+# spack install figtree@1.4.4
+# spack install hisat2@2.2.0
