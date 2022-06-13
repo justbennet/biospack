@@ -34,5 +34,5 @@
 # spack install bcl2fastq2@2.20.0.422
 # spack install clustal-omega@1.2.4
 # spack install py-macs2@2.2.4
-
+# spack install figtree@1.4.4
 
