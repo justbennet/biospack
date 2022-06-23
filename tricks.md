@@ -1,6 +1,6 @@
 # Tricks and handy spack commands
 
-To get a list of avaialble versions not the full `info` (see below), use
+To get a list of available versions not the full `info` (see below), use
 
 ```
 $ spack versions samtools
@@ -18,6 +18,26 @@ $ spack find
 -- linux-rhel8-skylake_avx512 / gcc@8.4.1 -----------------------
 autoconf@2.69                gcc@10.3.0       m4@1.4.19      readline@8.1
 . . . .
+```
+
+```
+$ spack find --long --deps angsd
+==> 1 installed package
+-- linux-rhel8-skylake_avx512 / gcc@10.3.0 ----------------------
+7rrgjas angsd@0.935
+w3oy6q3     curl@7.79.0
+sniyjil         openssl@1.1.1l
+3fym6nw             zlib@1.2.11
+dzhwvps     htslib@1.13
+hknpl5u         bzip2@1.0.8
+bz7ofpl         xz@5.2.5
+cwmudc6     lzma@4.32.7
+bjvrnkj     r@4.1.1
+wjwgcz3         icu4c@67.1
+uyfgcqr         ncurses@6.2
+aeg3qbt         openjdk@11.0.12_7
+3sf7sri         pcre2@10.36
+4una6ug         readline@8.1
 ```
 
 Regenerate module files to update content or layout with `refresh`.
