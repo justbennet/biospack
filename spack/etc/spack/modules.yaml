@@ -11,5 +11,6 @@ modules:
         - mpi
       core_compilers:
         - gcc@8.4.1
+      blacklist_implicits: true
       whitelist: [gcc]
       blacklist: ['%gcc@8.4.1']  # prevent generation of module files for any pkg compiled with gcc@8.4.1
