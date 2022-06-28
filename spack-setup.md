@@ -106,3 +106,4 @@ config:
   test_stage: $user_cache_path/test
 ```
 
+We need to register the system compiler now.
