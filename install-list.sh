@@ -37,3 +37,4 @@
 # spack install py-macs2@2.2.4
 # spack install figtree@1.4.4
 # spack install hisat2@2.2.0
+# spack install r-seurat@4.1.1
