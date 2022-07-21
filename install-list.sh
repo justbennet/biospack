@@ -39,3 +39,4 @@
 # spack install hisat2@2.2.0
 # spack install r-seurat@4.1.1
 # spack install ncftp@3.2.6
+# spack install openslide@3.4.1
