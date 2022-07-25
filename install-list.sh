@@ -40,3 +40,4 @@
 # spack install r-seurat@4.1.1
 # spack install ncftp@3.2.6
 # spack install openslide@3.4.1
+# spack install impute2@2.3.2
