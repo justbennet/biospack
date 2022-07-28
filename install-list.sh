@@ -41,3 +41,4 @@
 # spack install ncftp@3.2.6
 # spack install openslide@3.4.1
 # spack install impute2@2.3.2
+# spack install salmon@1.9.0
