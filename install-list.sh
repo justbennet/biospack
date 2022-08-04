@@ -45,3 +45,4 @@
 # spack install trimgalore@0.6.7
 # spack install spades@3.15.5
 # spack install igv@2.8.9
+# spack install py-weblogo@3.7.12
