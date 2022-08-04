@@ -46,3 +46,4 @@
 # spack install spades@3.15.5
 # spack install igv@2.8.9
 # spack install py-weblogo@3.7.12
+# spack install cap3@2015-02-11
