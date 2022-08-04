@@ -44,3 +44,4 @@
 # spack install salmon@1.9.0
 # spack install trimgalore@0.6.7
 # spack install spades@3.15.5
+# spack install igv@2.8.9
