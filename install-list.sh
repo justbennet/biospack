@@ -43,3 +43,4 @@
 # spack install impute2@2.3.2
 # spack install salmon@1.9.0
 # spack install trimgalore@0.6.7
+# spack install spades@3.15.5
