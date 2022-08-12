@@ -9,7 +9,6 @@ modules:
         autoload: 'direct'
       ^r:
         autoload: 'direct'
-      hash_length: 8
       projections:
         explicit_package: '{name}/{version}'
         gcc: "{name}/{version}-spack"
