@@ -34,7 +34,7 @@
 # spack install homer@4.11.1
 # spack install bcl2fastq2@2.20.0.422
 # spack install clustal-omega@1.2.4
-# spack install py-macs2@2.2.4
+# spack install py-macs2 ^python@3.8.12
 # spack install figtree@1.4.4
 # spack install hisat2@2.2.0
 # spack install r-seurat@4.1.1
@@ -47,3 +47,4 @@
 # spack install igv@2.8.9
 # spack install py-weblogo@3.7.12
 # spack install cap3@2015-02-11
+
