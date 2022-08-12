@@ -3,10 +3,26 @@ modules:
     enable:
       - lmod
     lmod:
-      hash_length: 0
+      all:
+        autoload: 'none'
+      ^python:
+        autoload: 'direct'
+      ^r:
+        autoload: 'direct'
+      hash_length: 8
       projections:
-        all: "{name}/{version}"
+        explicit_package: '{name}/{version}'
         gcc: "{name}/{version}-spack"
+        r-seurat: '{name}/{version}'
+        py-cutadapt: '{name}/{version}'
+        samtools: '{name}/{version}'
+        homer: '{name}/{version}'
+        gatk: '{name}/{version}'
+        trimgalore: '{name}/{version}'
+        py-weblogo: '{name}/{version}'
+        py-macs2: '{name}/{version}'
+        ^r: '{name}/.{version}'
+        ^python: '{name}/.{version}'
       hierarchy:
         - mpi
       core_compilers:
@@ -15,5 +31,10 @@ modules:
       # build dependency for an explicitly installed pkg and for all pkgs
       # built with gcc@8.4.1 except for another gcc.
       blacklist_implicits: true
-      whitelist: [gcc]
-      blacklist: ['%gcc@8.4.1']
+      whitelist:
+        - gcc
+        - r
+        - python
+        - ^python
+        - ^r
+      blacklist: ['%gcc@8.4.1']  # prevent generation of module files for any pkg compiled with gcc@8.4.1
