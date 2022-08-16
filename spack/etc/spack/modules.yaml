@@ -57,6 +57,8 @@ modules:
         trimgalore: '{name}/{version}'
         ^r: '{name}/.{version}'
         ^python: '{name}/.{version}'
+        r: '{name}/.{version}'
+        python: '{name}/.{version}'
       hierarchy:
         - mpi
       core_compilers:
