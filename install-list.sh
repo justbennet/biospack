@@ -25,8 +25,8 @@
 # spack install bwa@0.7.15
 # spack install bwa@0.7.17
 # spack install mothur@1.46.1
-# spack install raxml@8.2.11
-# spack install raxml@8.2.12
+# spack install raxml@8.2.11 +pthreads
+# spack install raxml@8.2.12 +pthreads
 # spack install stringtie@2.1.7
 # spack install stringtie@2.2.1
 # spack install canu@2.2
@@ -47,4 +47,6 @@
 # spack install igv@2.8.9
 # spack install py-weblogo@3.7.12
 # spack install cap3@2015-02-11
-
+# spack install rmats@4.0.2
+# spack install seqkit@2.3.0
+# spack install delly2@0.9.1
