@@ -11,6 +11,7 @@ modules:
       projections:
         angsd: '{name}/{version}'
         bamtools: '{name}/{version}'
+        bcftools: '{name}/{version}'
         bcl2fastq2: '{name}/{version}'
         beast1: '{name}/{version}'
         bedtools2: '{name}/{version}'

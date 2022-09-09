@@ -50,4 +50,5 @@
 # spack install rmats@4.0.2
 # spack install seqkit@2.3.0
 # spack install delly2@0.9.1
+# spack install bcftools@1.12
 # spack install r-seurat@4.1.1 ^r@4.2.0 +X
