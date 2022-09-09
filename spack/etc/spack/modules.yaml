@@ -5,6 +5,9 @@ modules:
     lmod:
       all:
         autoload: 'all'
+        suffixes:
+          r-seurat^r@4.2.0: 'R-4.2.0'
+          r-seurat^r@4.1.1: 'R-4.1.1'
       projections:
         angsd: '{name}/{version}'
         bamtools: '{name}/{version}'

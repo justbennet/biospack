@@ -37,7 +37,7 @@
 # spack install py-macs2 ^python@3.8.12
 # spack install figtree@1.4.4
 # spack install hisat2@2.2.0
-# spack install r-seurat@4.1.1
+# spack install r-seurat@4.1.1 ^r@4.1.1 +X
 # spack install ncftp@3.2.6
 # spack install openslide@3.4.1
 # spack install impute2@2.3.2
@@ -50,3 +50,4 @@
 # spack install rmats@4.0.2
 # spack install seqkit@2.3.0
 # spack install delly2@0.9.1
+# spack install r-seurat@4.1.1 ^r@4.2.0 +X
