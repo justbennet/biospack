@@ -3,7 +3,6 @@
 # spack install htslib@1.13
 # spack install bowtie2@2.4.1
 # spack install bowtie2@2.4.2
-# spack install gatk@4.1.0.0
 # spack install gatk@4.2.2.0
 # spack install minimap2@2.14
 # spack install blast-plus@2.12.0
@@ -31,7 +30,8 @@
 # spack install stringtie@2.2.1
 # spack install canu@2.2
 # spack install imagemagick@7.1.0-33
-# spack install homer@4.11.1
+# spack install homer@4.11.1 ^r@4.1.1 # built with r@4.1.1 the 1st time, before decided to match to stick built R version
+                                      # forgot to specify r@4.1.1 initially, and it errored when trying to use r@4.2.0
 # spack install bcl2fastq2@2.20.0.422
 # spack install clustal-omega@1.2.4
 # spack install py-macs2 ^python@3.8.12
@@ -52,3 +52,4 @@
 # spack install delly2@0.9.1
 # spack install bcftools@1.12
 # spack install r-seurat@4.1.1 ^r@4.2.0 +X
+# spack install valgrind@3.20.0
