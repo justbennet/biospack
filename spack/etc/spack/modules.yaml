@@ -51,6 +51,7 @@ modules:
         rmats: '{name}/{version}'
         seqkit: '{name}/{version}'
         delly2: '{name}/{version}'
+        valgrind: '{name}/{version}'
         ^r: '{name}/.{version}'
         ^python: '{name}/.{version}'
         r: '{name}/.{version}'
